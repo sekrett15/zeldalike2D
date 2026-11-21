@@ -1,0 +1,32 @@
+# --- Java ---
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# --- Eclipse IDE ---
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders/
+.externalToolBuilders/
+*.launch
+
+# --- Sistemas Operativos ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Herramientas de Arte y Mapas (archivos temporales/backup) ---
+*.aseprite~
+*.tmx.bak
