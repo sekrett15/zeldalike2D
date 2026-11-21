@@ -8,6 +8,7 @@ public class Main {
         SwingUtilities.invokeLater(() -> {
             GamePanel gamePanel = new GamePanel();
             new GameWindow(gamePanel);
+            gamePanel.startGameThread();
         });
     }
 }
